@@ -1,0 +1,13 @@
+<%
+dim conn
+    '数据库文件的位置
+sub close_db
+	rs.close
+	conn.close
+	set conn=nothing
+end sub
+
+set conn=server.CreateObject("adodb.connection")
+conn.ConnectionString="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" & Server.MapPath("db_webcourse.mdb")
+conn.open
+%>

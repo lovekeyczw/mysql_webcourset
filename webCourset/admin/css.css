@@ -1,0 +1,33 @@
+@CHARSET "gb2312";
+body{
+	background-image:url(../images/bg.jpg);
+	margin=0px;
+	padding=0px;
+}
+.datalist{
+	   border:1px solid #744011;
+	   font-family:Arial;
+	   border-collapse:collapse;
+	   background-color:#ffd2aa;
+	   font-size:14px;
+	}
+	.datalist th{
+	   border:1px solid #744011;
+	   background-color:#a16128;
+	   color:#ffffff;
+	   font-weight:bold;
+	   padding:4px 12px 4px 12px;
+	   text-align:center;
+	}
+	.datalist td{
+	   border:1px solid #744011;
+	   text-align:center;
+	   padding:4px 10px 4px 10px;
+	}
+	.datalist tr:hover,.datalist tr.altrow{
+	   background-color:#dca06b;
+	}
+	input{
+	  border:1px solid #744011;
+	  color:#744011;
+	}

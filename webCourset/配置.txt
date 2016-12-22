@@ -1,0 +1,8 @@
+你的ftp地址为: ftp://lenj.itd.8866.org
+你的ftp账号为php0128
+你的ftp密码与登录课程网站的密码一致
+你的个人网址为http://php0128.itd.8866.org
+你的mysql数据库管理地址为http://pma.itd.8866.org:1982/
+你的mysql账号为php0128
+你的mysql密码密码与登录课程网站的密码一致
+你的数据库名称为php0128
